@@ -1,8 +1,28 @@
 p{
+
 b:bold;i:italic;font-size: 65px;text-align: center;
+border: 5px dotted rgb(215, 120, 120);
+border-radius: 20px;
 }
 table,TD,TH{
     border: 1px solid #000000;
     border-collapse: collapse;
    
+}
+table{
+    width: 100%;
+}
+th#a{
+    width: 35%;
+}
+tr#l{
+    height: 80px;
+}
+th{
+    font-family: Arial Black;
+    font-size: 30px;text-align: center;background-color: darkgray;
+
+}
+TD{
+    background-color: aliceblue;
 }
