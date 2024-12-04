@@ -1,0 +1,8 @@
+p{
+b:bold;i:italic;font-size: 65px;text-align: center;
+}
+table,TD,TH{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+   
+}
