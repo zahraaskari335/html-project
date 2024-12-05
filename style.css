@@ -24,5 +24,16 @@ th{
 
 }
 TD{
-    background-color: aliceblue;
+    background-color: rgb(83, 112, 137);
+}
+tr#f{
+    background-color: rgb(219, 73, 73);color: rgb(31, 32, 33);
+}
+<!-- تک پایین برای لیست غیر ترتیبی بولیت دادیم که اگرnone    بیگیریم هیچ سمبول نمیگیردم -->
+ul{
+    list-style-type: georgian;
+padding: 300px;
+}
+h4{
+    padding-top: 80px;
 }
