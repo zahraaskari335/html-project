@@ -37,3 +37,17 @@ padding: 300px;
 h4{
     padding-top: 80px;
 }
+li a:hover{
+    color: #000000;background-color: aliceblue;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+}
+button{
+    background-color: grey;
+    color: aliceblue;
+    height: 30PX;width: fit-content;
+}
