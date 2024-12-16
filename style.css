@@ -43,11 +43,23 @@ li a:hover{
 li{
     display: inline;
 }
-li a{
-    text-decoration: none;
+
 }
 button{
     background-color: grey;
     color: aliceblue;
     height: 30PX;width: fit-content;
+    padding-left: 55PX;
+    overflow: hidden;
+    border-radius: 99px;
+}
+LI a{
+    text-decoration: none;
+    display: inline;
+}
+li#a{
+    display: inline;
+}
+input{
+    display: block;
 }
