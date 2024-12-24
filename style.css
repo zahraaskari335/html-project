@@ -66,3 +66,8 @@ input{
 .a{
     display: inline;
 }
+h1{
+    color: aqua;
+    border: 2px dashed black;
+    border-radius:5px;
+}

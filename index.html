@@ -4,23 +4,38 @@
     <
     <title>قرطاسیه فروشی دانش</title>
     <link rel="stylesheet" href="style.css">
+
     
 </head>
 <body bgcolor="gray">
-    <h1>form</h1>
+<h1>hi my mom happy your day i hope we will have good days together</h1>
+ <h1>form</h1>
     <form action="">
 <fieldset>
     <legend>personal information</legend>
     <label >name</label>
-    <input type="name" placeholgitder="enter your name">
+    <input type="name"
+    pattern="[A-Za-z]{3-5}" 
+    placeholgitder="enter your name">
     <label >email</label>
-    <input type="email" placeholder="enter your email">
+    <input
+    required
+     type="email" placeholder="enter your email">
     <label for="">tel</label>
-    <input type="tel" placeholder="ernter your phone number">
+    <input
+    pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+    type="tel" placeholder="ernter your phone number"
+    min="9"
+    max="14"
+    
+    >
 </fieldset>
-<fieldset>
+<fieldset><legend>work exprerience</legend>
+    <label for="">compani name</label>
     <input type="text">
+    <label for="">years of exprerience</label>
     <input type="number">
+    <input type="submit">
 </fieldset>
     </form>
 
