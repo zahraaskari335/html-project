@@ -71,3 +71,15 @@ h1{
     border: 2px dashed black;
     border-radius:5px;
 }
+#O{
+    margin: 55px;
+    margin-left: 80px;
+
+   border-style: dashed inset groove outset;
+   border-color: aliceblue #3a2b3a rgb(215, 120, 120) hsl(12, 100%, 50%); 
+   border-width: 2px 8px 12px 22px;
+border-top-left-radius: 9px;
+}
+.rr{
+
+}
