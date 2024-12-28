@@ -1,3 +1,11 @@
+.d{
+  background-image: url("abc.jpg");}
+*{background-image: url("abc.jpg");
+image-rendering: flip;}
+
+/* <img src="abc.jpg" alt="یک راه دیگر">
+  */
+
 p{
 
 b:bold;i:italic;font-size: 65px;text-align: center;
