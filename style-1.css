@@ -1,0 +1,59 @@
+.all{
+    margin: auto;
+    border: 3px groove gray;
+    box-shadow: 10px 10px 20px black;
+    margin-right: 80%;
+
+}
+.top{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(45, 45, 112);
+    
+}
+.middle{
+    background-color: gainsboro;
+    height: 90px;
+    width: 248px;
+    padding-top: 15px;
+    
+
+}
+.end{
+    background-color: gainsboro;
+    height: 40px;
+    width: 248px;
+    padding-top: 25px;
+    
+    
+
+}
+img{
+    height: 90px;
+    width: 95px;
+    padding-top: 13px;
+    margin-left: 75px;
+    border: red 3px solids;
+    border-radius: 50%;
+    
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: Sofia;
+}
+span{
+    padding-left: 17px;
+}
+i{
+    padding-left: 16px;
+}
+.t{
+    padding-left: 18%;
+}
+.i{
+    padding-left: 19%;
+}
+.w{
+    padding-left:20% ;
+}
