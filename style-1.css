@@ -1,8 +1,10 @@
 .all{
-    margin: auto;
+    padding-left: 12px;
+    padding-top: 13px;
     border: 3px groove gray;
     box-shadow: 10px 10px 20px black;
-    margin-right: 80%;
+    margin-right: 78%;
+    
 
 }
 .top{
