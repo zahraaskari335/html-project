@@ -1,0 +1,29 @@
+.container{
+    background-color: gainsboro;
+    display: flex;
+    width: 90%;
+}
+.box-one{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+}
+.box-two{
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+    display: inline-block;
+
+
+}
+.box-three{
+    background-color: brown;
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+}
+img{
+    width: 400px;
+    height: 400px;
+}

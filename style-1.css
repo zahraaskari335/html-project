@@ -6,6 +6,7 @@
     box-shadow: 10px 10px 20px black;
     margin-right: 78%;
     
+    
 
 }
 .top{
@@ -27,6 +28,7 @@
     height: 40px;
     width: 248px;
     padding-top: 25px;
+    display: flex;
     
     
 
@@ -59,4 +61,5 @@ i{
 }
 .w{
     padding-left:20% ;
+    display: inline;
 }
