@@ -1,0 +1,20 @@
+.all{
+    min-height: 400px;
+    width: 80%;
+    background-color: gainsboro;
+    margin: 0 auto;
+
+}
+.col-80{
+    width: 80%;
+}
+.col-29{
+    width: 29%;
+}
+img.logo{
+    margin: 5px;
+}
+span{
+    padding: 25px;
+    font-size: 20px;
+}
