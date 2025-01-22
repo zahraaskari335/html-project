@@ -1,3 +1,27 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+ol{
+    display: inline-block;
+}
+ol li a{
+    padding: 0 3%;
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+ol li{
+    display: inline;
+    line-height: 5px;
+}
+nav{
+    margin-top: -1%;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    height: 130px;
+}
 .all{
     min-height: 400px;
     width: 80%;
@@ -6,15 +30,59 @@
 
 }
 .col-80{
-    width: 80%;
+    width: 75%;
+    margin-top: 118px;
+}
+.tramp,.sport{
+    width: 100%;
 }
 .col-29{
-    width: 29%;
+    margin-top: 110px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
 }
 img.logo{
     margin: 5px;
 }
-span{
-    padding: 25px;
-    font-size: 20px;
+
+
+h2{
+    background-color: red;
+    color: white;
+}
+ul li{
+    padding: 21px 0;
+}
+ol li a:hover{
+    background-color: rgb(160, 185, 195);
+    text-decoration: solid underline ghostwhite;
+}
+@media(max-width:952){
+    .all{
+        width: 100%;}
+        .col-29{
+            width: 100%;}
+                ol{
+                    width: 100%;
+                }
+                    ol li{
+                        display: block;
+                    width: 100%;}
+}
+@media(max-width:858){
+    .all{
+        width: 100%;}
+    .col-29{
+        width: 100%;}
+        ol{
+            width: 100%;
+        }
+                ol li{
+                    display: block;
+                width: 100%;}
+                ol li a{
+                    display: block;
+                }
 }
